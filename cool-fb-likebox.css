@@ -1,0 +1,437 @@
+/* Static Facebook Pop Out Like Box */
+
+
+
+#cfblikebox {
+
+
+
+	display: block;
+
+
+
+	padding: 0;
+
+
+
+	z-index: 99999;
+
+
+
+	position: fixed;
+
+
+
+	-webkit-border-top-left-radius: 30px;
+
+
+
+	-webkit-border-bottom-left-radius: 30px;
+
+
+
+	-moz-border-radius-topleft: 30px;
+
+
+
+	-moz-border-radius-bottomleft: 30px;
+
+
+
+	border-top-left-radius: 30px;
+
+
+
+	border-bottom-left-radius: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+.cfbl_top {
+
+
+
+	top: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+.cfbl_left {
+
+
+
+	left: 0px;
+
+
+
+}
+
+
+
+
+
+
+
+.cfbl_right {
+
+
+
+	right: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.cfbl_bottom {
+
+
+
+	bottom: 0;
+
+
+
+}
+
+
+
+
+
+
+
+.cfbl_bottom .cfblbadge {
+
+
+
+	display: block;
+
+
+
+	height: 47px;
+
+
+
+	left: 50%;
+
+
+
+	margin-left: -75px;
+
+
+
+	position: absolute;
+
+
+
+	top: -47px;
+
+
+
+	width: 150px;
+
+
+
+	background-image: url(images/horizantal.png);
+
+
+
+	background-repeat: no-repeat;
+
+
+
+	-webkit-border-top-left-radius: 30px;
+
+
+
+	-webkit-border-top-right-radius: 30px;
+
+
+
+	-moz-border-radius-topleft: 30px;
+
+
+
+	-moz-border-radius-topright: 30px;
+
+
+
+	border-top-left-radius: 30px;
+
+
+
+	border-top-right-radius: 30px;
+
+
+
+	overflow: hidden;
+
+
+
+}
+
+
+
+
+
+
+
+.cfbl_top .cfblbadge {
+
+
+
+	display: block;
+
+
+
+	height: 47px;
+
+
+
+	left: 50%;
+
+
+
+	margin-left: -75px;
+
+
+
+	position: absolute;
+
+
+
+	bottom: -47px;
+
+
+
+	width: 150px;
+
+
+
+	background-image: url(images/horizantal.png);
+
+
+
+	background-repeat: no-repeat;
+
+
+
+	overflow: hidden;
+
+
+
+	-webkit-border-bottom-right-radius: 30px;
+
+
+
+	-webkit-border-bottom-left-radius: 30px;
+
+
+
+	-moz-border-radius-bottomright: 30px;
+
+
+
+	-moz-border-radius-bottomleft: 30px;
+
+
+
+	border-bottom-right-radius: 30px;
+
+
+
+	border-bottom-left-radius: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+.cfbl_left .cfblbadge {
+
+
+
+	display: block;
+
+
+
+	height: 150px;
+
+
+
+	top: 50%;
+
+
+
+	margin-top: -75px;
+
+
+
+	position: absolute;
+
+
+
+	right: -47px;
+
+
+
+	width: 47px;
+
+
+
+	background-image: url(images/vertical-left.png);
+
+
+
+	background-repeat: no-repeat;
+
+
+
+	overflow: hidden;
+
+
+
+	-webkit-border-top-right-radius: 30px;
+
+
+
+	-webkit-border-bottom-right-radius: 30px;
+
+
+
+	-moz-border-radius-topright: 30px;
+
+
+
+	-moz-border-radius-bottomright: 30px;
+
+
+
+	border-top-right-radius: 30px;
+
+
+
+	border-bottom-right-radius: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+.cfbl_right .cfblbadge {
+
+
+
+	display: block;
+
+
+
+	height: 150px;
+
+
+
+	top: 50%;
+
+
+
+	margin-top: -75px;
+
+
+
+	position: absolute;
+
+
+
+	left: -47px;
+
+
+
+	width: 47px;
+
+
+
+	background-image: url(images/vertical-right.png);
+
+
+
+	background-repeat: no-repeat;
+
+
+
+	overflow: hidden;
+
+
+
+	-webkit-border-top-left-radius: 30px;
+
+
+
+	-webkit-border-bottom-left-radius: 30px;
+
+
+
+	-moz-border-radius-topleft: 30px;
+
+
+
+	-moz-border-radius-bottomleft: 30px;
+
+
+
+	border-top-left-radius: 30px;
+
+
+
+	border-bottom-left-radius: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+.credits_off {
+
+
+
+display:none;
+
+
+
+
+
+
+
+}
